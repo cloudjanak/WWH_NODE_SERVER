@@ -1,6 +1,6 @@
 //	Customization
-var appPort = 8080;
-
+//var appPort = 8080;
+var appPort = process.env.PORT || 8080;
 // Librairies
 
 var express = require('express'),
